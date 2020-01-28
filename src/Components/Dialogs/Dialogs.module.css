@@ -1,0 +1,46 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+    height: 100vh;
+}
+
+.dialog_item {
+    padding:  10px;
+    border-right: 1px solid black;
+}
+.dialog_item a{
+    color: white;
+    text-decoration: none;
+}
+
+.dialog {
+    background-color: #00BA00;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+
+.messages {
+    padding: 10px 0 10px 10px;
+    vertical-align: bottom;
+}
+
+.message {
+    padding: 10px;
+    background-color: #48ea48;
+    border-radius: 7px;
+    margin-bottom: 10px ;
+}
+
+.dialog .active {
+    color: gold;
+}
+
+.messages textarea {
+    width: 97.4%;
+}
+
+.messageBox{
+    height: 140px;
+}

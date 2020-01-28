@@ -1,0 +1,29 @@
+/*.content{*/
+/*    grid-area: c;*/
+/*}*/
+
+/*.content-img {*/
+/*    width: 70%;*/
+/*}*/
+
+.postBlock{
+    padding: 10px;
+}
+
+.myPosts{
+    margin-top: 20px;
+}
+
+textarea{
+    width: 100%;
+    height: 80px;
+    resize: none;
+    padding: 10px;
+}
+
+button{
+    width: 10%;
+    height: 30px;
+
+}
+

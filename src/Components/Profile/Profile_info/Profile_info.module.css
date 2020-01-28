@@ -1,0 +1,23 @@
+.content img {
+    width: 99%;
+    padding: 10px 0 10px 10px;
+
+}
+
+.discriptionBlock{
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.avatar img{
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.discription {
+
+}
