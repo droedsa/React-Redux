@@ -15,8 +15,6 @@ const Dialogs = (props) => {
         let text = newMessageText.current.value;
         props.messageTextUpdate(text);
     };
-
-
     // eslint-disable-next-line react/jsx-pascal-case
     let dialogElement = props.messagesPage.dialogData.map(dialog => <Dialog_item name={dialog.name} id={dialog.id}/>);
     // eslint-disable-next-line react/jsx-pascal-case
@@ -30,14 +28,14 @@ const Dialogs = (props) => {
             <div className={classes.messages}>
                 <div>{messageElement}</div>
                 <div className={classes.messageBox}>
-                    <div >
+                    <div>
                         <textarea value={props.messagesPage.newMessageBody}
                                   onChange={updateMessageText}
                                   ref={newMessageText}
                                   placeholder='Enter you message'/>
                     </div>
                     <div>
-                        <button onClick={sendNewMessage}> Send </button>
+                        <button onClick={sendNewMessage}> Send</button>
                     </div>
 
                 </div>

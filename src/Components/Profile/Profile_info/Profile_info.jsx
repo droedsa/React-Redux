@@ -16,8 +16,6 @@ const Profile_info = () => {
                     <p>Ivan Vlasenko</p>
                     <p>19 y.old</p>
                     <p>Ukraine Kiev</p>
-
-
                 </div>
 
             </div>

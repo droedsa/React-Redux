@@ -5,7 +5,7 @@ import Post from "./Post/Post";
 
 
 const MyPosts = (props) => {
-    let postElement = props.postDatta.map(p=><Post message={p.post}/>)
+    let postElement = props.postDatta.map(p=><Post message={p.post}/>);
     let newPostElement = React.createRef();
 
     let addNewPost = () => {

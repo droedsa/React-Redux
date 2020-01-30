@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3779928-5183-4209-825b-a23b7ec19d37" name="Default Changelist" comment="" />
+    <list default="true" id="c3779928-5183-4209-825b-a23b7ec19d37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile_info/Profile_info.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile_info/Profile_info.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/DialogsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/DialogsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/ProfileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ProfileReducer.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Wl5cZd1hybXpDg4vmXjIoaWBBO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,13 +42,31 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Droed\Desktop\JS\react\01-first-project\react-1\src\Components\Dialogs" />
       <recent name="C:\Users\Droed\Desktop\JS\react\01-first-project\react-1\src\Components\Profile\MyPosts" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -68,6 +100,11 @@
       <workItem from="1580235269810" duration="69000" />
       <workItem from="1580235354113" duration="36000" />
       <workItem from="1580235412924" duration="8304000" />
+      <workItem from="1580245098411" duration="1202000" />
+      <workItem from="1580255363421" duration="14000" />
+      <workItem from="1580255396335" duration="59000" />
+      <workItem from="1580401358752" duration="7539000" />
+      <workItem from="1580411023203" duration="1165000" />
     </task>
     <servers />
   </component>
@@ -87,18 +124,50 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="444" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580241476113" />
+    <state x="154" y="92" width="1120" height="584" key="DiffContextDialog" timestamp="1580408450224">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="154" y="92" width="1120" height="584" key="DiffContextDialog/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580408450224" />
     <state x="494" y="138" key="FileChooserDialogImpl" timestamp="1580233178720">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="494" y="138" key="FileChooserDialogImpl/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580233178720" />
-    <state x="105" y="52" key="SettingsEditor" timestamp="1580238674617">
+    <state width="1283" height="-12" key="GridCell.Tab.0.bottom" timestamp="1580412557056">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="105" y="52" key="SettingsEditor/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580238674617" />
-    <state x="370" y="172" key="run.anything.popup" timestamp="1580244149367">
+    <state width="1283" height="-12" key="GridCell.Tab.0.bottom/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580412557056" />
+    <state width="1283" height="171" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1580255454547" />
+    <state width="1283" height="-12" key="GridCell.Tab.0.center" timestamp="1580412557056">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="370" y="172" key="run.anything.popup/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580244149367" />
+    <state width="1283" height="-12" key="GridCell.Tab.0.center/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580412557056" />
+    <state width="1283" height="171" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1580255454547" />
+    <state width="1283" height="-12" key="GridCell.Tab.0.left" timestamp="1580412557056">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1283" height="-12" key="GridCell.Tab.0.left/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580412557056" />
+    <state width="1283" height="171" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1580255454547" />
+    <state width="1283" height="-12" key="GridCell.Tab.0.right" timestamp="1580412557056">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state width="1283" height="-12" key="GridCell.Tab.0.right/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580412557056" />
+    <state width="1283" height="171" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1580255454547" />
+    <state x="105" y="52" key="SettingsEditor" timestamp="1580405774352">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="105" y="52" key="SettingsEditor/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580405774352" />
+    <state x="561" y="291" key="VCS.ChangelistChooser" timestamp="1580404454891">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="561" y="291" key="VCS.ChangelistChooser/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580404454891" />
+    <state x="521" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580408045989">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="521" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580408045989" />
+    <state x="370" y="172" key="run.anything.popup" timestamp="1580409982820">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="370" y="172" key="run.anything.popup/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580409982820" />
     <state x="377" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1580231358164">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
