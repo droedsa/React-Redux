@@ -6,6 +6,8 @@ import Profile from "./Components/Profile/Profile";
 // eslint-disable-next-line no-unused-vars
 import {Route} from "react-router-dom";
 import DialogsContainer from "./Components/Dialogs/DialogsContiner";
+import Users from "./Components/Users/User";
+import UserContainer from "./Components/Users/UserContainer";
 
 
 const App = (props) => {
@@ -16,6 +18,7 @@ const App = (props) => {
             <div className='app-wrapper_content'>
                 <Route path='/dialogs' render={() => <DialogsContainer/>}/>
                 <Route path='/profile' render={() => <Profile/>}/>
+                <Route path='/users' render={() => <UserContainer/>}/>
                 {/*<Route path='/news' render={() => <News/>}/>*/}
                 {/*<Route path='/settings' render={() => <Setting/>}/>*/}
             </div>

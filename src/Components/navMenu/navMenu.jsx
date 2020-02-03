@@ -17,6 +17,9 @@ const NavMenu = () => {
             <div className={classes.items}>
                 <NavLink to="/settings" activeClassName={classes.active}>Settings</NavLink>
             </div>
+            <div className={classes.items}>
+                <NavLink to="/users" activeClassName={classes.active}>Users</NavLink>
+            </div>
         </nav>
     );
 };
