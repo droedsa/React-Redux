@@ -9,6 +9,9 @@ const NavMenu = () => {
                 <NavLink to="/profile" activeClassName={classes.active}>Profile</NavLink>
             </div>
             <div className={classes.items}>
+                <NavLink to="/users" activeClassName={classes.active}>Users</NavLink>
+            </div>
+            <div className={classes.items}>
                 <NavLink to="/dialogs" activeClassName={classes.active}>Messages</NavLink>
             </div>
             <div className={classes.items}>
@@ -17,9 +20,7 @@ const NavMenu = () => {
             <div className={classes.items}>
                 <NavLink to="/settings" activeClassName={classes.active}>Settings</NavLink>
             </div>
-            <div className={classes.items}>
-                <NavLink to="/users" activeClassName={classes.active}>Users</NavLink>
-            </div>
+
         </nav>
     );
 };
