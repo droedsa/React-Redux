@@ -10,7 +10,6 @@ let Users = (props) => {
     for (let i = 1; i < pageCount; i++) {
         pagesArr[i] = i;
     }
-    debugger;
     return <div>
         <div className={classes.pages}>
             {

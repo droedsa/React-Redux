@@ -3,12 +3,14 @@ const UNFOLLOW = 'UNFOLLOW';
 const SETUSERS = 'SETUSERS';
 const SETCURRENTPAGE = 'SET_CURRENT_PAGE';
 const SETUSERCOUNT = 'SET_PAGE_NUMBERS';
+const  PRELOADER = 'PRELOADER';
 
 let initialState = {
     users: [],
     usersCount : 0,
     postCount:4,
-    currentPage:1
+    currentPage:1,
+    isFetching:false
 };
 
 const usersReducer = (state = initialState, action) => {
@@ -50,6 +52,12 @@ const usersReducer = (state = initialState, action) => {
                 currentPage: action.currentPage
             }
         }
+        case PRELOADER:{
+            return {
+                ...state,
+                isFetching: action.isFetching
+            }
+        }
         default:
             return state;
     }
@@ -60,4 +68,5 @@ export const unFollowActionCreator = (userID) => ({type: 'UNFOLLOW', userID: use
 export const setUsersActionCreator = (users,usersCount) => ({type: 'SETUSERS', users: users});
 export const setUsersCountCreator = (usersCount) => ({type: 'SET_PAGE_NUMBERS', usersCount});
 export const setCurrentPageCreator = (currentPage) => ({type: 'SET_CURRENT_PAGE', currentPage});
+export const setPreLoaderCreator = (isFetching) => ({type: 'PRELOADER', isFetching});
 export default usersReducer;

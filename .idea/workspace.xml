@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3779928-5183-4209-825b-a23b7ec19d37" name="Default Changelist" comment="56 - refactoring">
+    <list default="true" id="c3779928-5183-4209-825b-a23b7ec19d37" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Asets/img/Preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Preloader/Preloader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Users/User.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/User.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Users/User.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/User.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Users/UserContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Users/UserContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/UsersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/UsersReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Users" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Asets/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,13 +47,14 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Droed\Desktop\JS\react\01-first-project\react-1\src\Asets\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Droed\Desktop\JS\react\01-first-project\react-1\src\Asets\img" />
       <recent name="C:\Users\Droed\Desktop\JS\react\01-first-project\react-1\src\Components\Users" />
       <recent name="C:\Users\Droed\Desktop\JS\react\01-first-project\react-1\src\Components\Dialogs" />
       <recent name="C:\Users\Droed\Desktop\JS\react\01-first-project\react-1\src\Components\Profile\MyPosts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Droed\Desktop\JS\react\01-first-project\react-1\src\Asets\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -115,7 +117,7 @@
       <workItem from="1580829656976" duration="8018000" />
       <workItem from="1580839668210" duration="2436000" />
       <workItem from="1580847767951" duration="93000" />
-      <workItem from="1581005126116" duration="7276000" />
+      <workItem from="1581005126116" duration="9503000" />
     </task>
     <task id="LOCAL-00001" summary="49">
       <created>1580758861947</created>
@@ -145,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581009955443</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="56 - refactoring">
+      <created>1581013525706</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581013525706</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +165,8 @@
     <MESSAGE value="50-53" />
     <MESSAGE value="54 - life cycle methods, componentDidMount" />
     <MESSAGE value="55 - pagination, постраничный вывод пользователей" />
-    <option name="LAST_COMMIT_MESSAGE" value="55 - pagination, постраничный вывод пользователей" />
+    <MESSAGE value="56 - refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="56 - refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="306" y="42" key="#ESLint" timestamp="1580742785407">
@@ -171,20 +181,21 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="306" y="42" key="#Notifications/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1579799947868" />
-    <state x="484" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580742304365">
+    <state x="484" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581016184654">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="484" y="173" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580742304365" />
+    <state x="484" y="173" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1304.768@62.0.1304.768" timestamp="1581016184654" />
     <state x="444" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581013170281">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="444" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580837306705" />
     <state x="444" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/62.0.1304.768@62.0.1304.768" timestamp="1581013170281" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581013247313">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1581016973709">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580838607443" />
-    <state x="337" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1581013247313" />
+    <state x="337" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1581016973709" />
     <state x="154" y="92" width="1120" height="584" key="DiffContextDialog" timestamp="1580408450224">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
@@ -266,11 +277,11 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="561" y="291" key="VCS.ChangelistChooser/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580404454891" />
-    <state x="306" y="112" key="Vcs.Push.Dialog.v2" timestamp="1581009959403">
+    <state x="306" y="112" key="Vcs.Push.Dialog.v2" timestamp="1581013528096">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="306" y="112" key="Vcs.Push.Dialog.v2/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580838610073" />
-    <state x="306" y="112" key="Vcs.Push.Dialog.v2/62.0.1304.768@62.0.1304.768" timestamp="1581009959403" />
+    <state x="306" y="112" key="Vcs.Push.Dialog.v2/62.0.1304.768@62.0.1304.768" timestamp="1581013528096" />
     <state x="521" y="295" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580408045989">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
@@ -279,9 +290,10 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="370" y="172" key="run.anything.popup/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580751453539" />
-    <state x="377" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1580756435654">
+    <state x="377" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581016289844">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="377" y="89" width="672" height="678" key="search.everywhere.popup/62.0.1304.768/1428.0.1378.900@62.0.1304.768" timestamp="1580756435654" />
+    <state x="377" y="89" width="672" height="678" key="search.everywhere.popup/62.0.1304.768@62.0.1304.768" timestamp="1581016289844" />
   </component>
 </project>
