@@ -3,10 +3,8 @@ import './App.css';
 import Header from "./Components/Header/Head";
 import NavMenu from "./Components/navMenu/navMenu";
 import Profile from "./Components/Profile/Profile";
-// eslint-disable-next-line no-unused-vars
 import {Route} from "react-router-dom";
 import DialogsContainer from "./Components/Dialogs/DialogsContiner";
-import Users from "./Components/Users/User";
 import UserContainer from "./Components/Users/UserContainer";
 
 

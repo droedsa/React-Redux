@@ -3,9 +3,10 @@
     height: 100px;
 }
 
-.selectedPage{
+.currentPage {
     font-weight: bold;
 }
+
 .pages div{
     padding-left: 5px;
 }
